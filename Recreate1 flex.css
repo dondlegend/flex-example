@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+.header-background{
+    background-image: url('Picture folder/Minimalistic Gray Wallpaper 2560x1600 Minimalistic Gray wallpaper.jpg');
+}
+.button-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.tweet-btn{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: steelblue;
+    border: none;
+    padding: 12px 10px;
+    border-radius: 14px;
+}
+.tweet-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.h1-caption,.sub-caption{
+    margin-left: 20px;
+    color: white;
+}
+.h1-caption{
+    margin-bottom: 30px;
+}
+.sub-caption{
+    margin-bottom: 20px;
+}
+.navbar{
+    display: flex;
+    background-color: grey;
+    justify-content: space-around;
+}
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: white;
+    color: darkblue;
+}
+.overall{
+    padding: 18px;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1{
+    flex: 60%;
+    background-image: url('Picture folder/Minimalistic Gray Wallpaper 2560x1600 Minimalistic Gray wallpaper.jpg');
+    padding: 18px;
+    border-radius: 6px;
+    color: white;
+    height: 150px;
+}
+.col-2{
+    flex: 35%;
+    border: 2px ridge black;
+    height: 150px;
+    margin-left: 20px;
+    padding: 18px;
+    border-radius: 6px;
+}
+.second{
+    flex: 100%;
+    flex-wrap: wrap;
+    background-color:mediumslateblue;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    padding: 18px;
+}
+.overall-01{
+    padding: 20px;
+}
+.new{
+    display: flex;
+    flex-wrap: wrap;
+}
+.first{
+    flex: 40%;
+    border: 2px ridge black;
+    padding: 18px;
+    border-radius: 6px;
+    height: 150px;
+} 
+.two{
+    flex: 55%;
+    border: 2px ridge black;
+    height: 150px;
+    margin-left: 20px;
+    padding: 18px;
+    border-radius: 6px;
+}
+.overall-02{
+    padding: 18px;
+}
+.Resources{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-01{
+    flex: 75%;
+    border: 2px ridge black;
+    height: 150px;
+    border-radius: 6px;
+    padding: 18px;
+
+}
+.col-02{
+    flex: 20%;
+    border: 2px ridge black;
+    height: 150px;
+    margin-left: 20px;
+    padding: 18px;
+    border-radius: 6px;
+}
+.overall-03{
+    padding: 18px;
+}
+.questions{
+    display: flex;
+    flex-wrap: wrap;
+}
+.number1{
+    flex: 40%;
+    border: 2px ridge black;
+    height: 150px;
+    border-radius: 6px;
+    padding: 18px;
+}
+.number2{
+    flex: 25%;
+    border: 2px ridge black;
+    height: 150px;
+    margin-left: 20px;
+    padding: 18px;
+    border-radius: 6px;
+}
+.number3{
+    flex: 30%;
+    margin-left: 20px;
+    padding: 18px;
+    border-radius: 6px;
+    border: 2px ridge black;
+    height: 150px;
+
+
+}
+.gridbugs{
+    flex: 100%;
+    flex-wrap: wrap;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 18px;
+    border: 2px ridge black;
+
+}
+.footer{
+    display: flex;
+    flex-wrap:wrap;
+    background-image: url('Picture folder/Minimalistic Gray Wallpaper 2560x1600 Minimalistic Gray wallpaper.jpg');
+    border: 2px ridge black;
+    margin-top: 40px;    
+    height: 200px;
+}
+.footer01{
+    background-color: grey;
+    height: 160px;
+    border-radius: 6px;
+    padding: 18px;
+    color: white;
+    margin-top: 20px;
+    text-align:justify;
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+@media screen and (max-width: 600px) {
+    .header-background, .navbar{
+        flex-direction: column;
+    }
+    .col-1{
+        margin: 20px 0 20px 0;
+        flex: 100%;
+    }
+    .col-2{
+        margin: 20px 0 20px 0;
+        width: 150px;
+        flex: 100%;
+    }
+    .second{
+        margin: 20px 20px 20px 20px;
+        height:150px;  
+        flex:100%; 
+     }
+     .overall-01{   
+        margin: 20px 0 20px 0;
+        flex: 100%;
+
+     }
+     .new{
+        height: 200px;
+          }
+    .first{
+        height: 130px;
+        flex: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+
